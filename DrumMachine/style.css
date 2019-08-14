@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "ronda";
+  src: url("./RondaRegular.ttf");
+}
+
 html {
   font-size: 10px;
   background: url("./sevennegativeonesevenBKGRND.jpg") bottom center;
@@ -11,6 +16,12 @@ html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.title {
+  font-family: ronda;
+  color: orange;
+  font-size: 50px;
 }
 
 .drummachine {
