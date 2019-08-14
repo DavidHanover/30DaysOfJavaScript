@@ -11,6 +11,14 @@ html {
   font-family: sans-serif;
 }
 
+.drummachine {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 1vh;
+}
+
 .keys {
   display: flex;
   flex: 1;
@@ -19,7 +27,7 @@ html {
 }
 
 .key {
-  border: 0.4rem solid black;
+  border: 0.4rem rgba(0, 0, 0, 0.6);
   border-radius: 0.5rem;
   margin: 1rem;
   font-size: 1.5rem;
